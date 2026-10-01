@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="description" content="SadraAI">
+    <title>SadraAI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">
+            <div class="logo-icon">S</div>
+            <span>SadraAI</span>
+        </div>
+
+        <div class="developer">
+            توسعه دهنده : سید محمد صدرا موسوی
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="badge">SadraAI</div>
+
+            <h1>
+                <span>هوش مصنوعی</span>
+                <strong>SadraAI</strong>
+            </h1>
+
+            <p>دستیار هوشمند شما</p>
+        </section>
+
+        <section class="chat-box">
+
+            <div class="chat-top">
+                <div class="ai-info">
+                    <div class="online"></div>
+                    <span>SadraAI</span>
+                </div>
+
+                <span class="online-text">آنلاین</span>
+            </div>
+
+            <div class="messages" id="messages">
+                <div class="welcome" id="welcome">
+                    <div class="welcome-icon">S</div>
+                    <h2>سلام 👋</h2>
+                    <p>چه کمکی از دستم برمیاد؟</p>
+                </div>
+            </div>
+
+            <div class="typing" id="typing">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <form class="input-box" id="chatForm">
+                <textarea
+                    id="messageInput"
+                    placeholder="پیامتان را بنویسید..."
+                    rows="1"
+                    spellcheck="false"
+                    autocomplete="off"
+                ></textarea>
+
+                <button type="submit" id="sendButton" aria-label="ارسال">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M21.5 2.5L10.6 13.4"></path>
+                        <path d="M21.5 2.5L14.5 21.5L10.6 13.4L2.5 9.5L21.5 2.5Z"></path>
+                    </svg>
+                </button>
+            </form>
+
+        </section>
+
+        <section class="donate">
+            <div class="donate-icon">♡</div>
+
+            <div class="donate-text">
+                <h3>حمایت از SadraAI</h3>
+                <p>برای حمایت از توسعه SadraAI</p>
+            </div>
+
+            <a
+                href="https://daramet.com/SadraM"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                دونیت
+            </a>
+        </section>
+    </main>
+
+    <footer>
+        <span>SadraAI</span>
+        <span>توسعه دهنده : سید محمد صدرا موسوی</span>
+    </footer>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
